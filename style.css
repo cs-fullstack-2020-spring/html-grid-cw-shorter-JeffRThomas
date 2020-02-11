@@ -4,16 +4,18 @@ html body {
 
 body {
     display: grid;
-    grid-template-areas:   
-    "header header header header header header"
-    "nav nav nav nav nav nav"
-    "article article article article aside aside"
-    "footer footer footer footer footer footer";
-    grid-template-columns:6 1fr ;
+    grid-template-areas:
+    "";
+    grid-template-columns: 6 1fr;
+    gap: 2px;
 }
 
+body,div,nav {
+    color: silver;
+}
 h1 {
-    /* background-color: blue; */
+    font-weight: bold;
+    color: black;
 }
 header {
     grid-area: header;
@@ -22,7 +24,7 @@ header {
 }
 nav {
     grid-area: nav;
-    background-color: silver;
+    background-color:blue;
     border:black 1px;
 }
 
