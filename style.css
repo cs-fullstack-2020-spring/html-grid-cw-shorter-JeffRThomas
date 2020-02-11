@@ -4,6 +4,7 @@ html body {
 
 body {
     display: grid;
+    /* you have to define your rows and colums if you're using grid template area */
     grid-template-areas:
     "";
     grid-template-columns: 6 1fr;
